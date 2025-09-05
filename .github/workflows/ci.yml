@@ -30,7 +30,7 @@ jobs:
         run: flake8 app.py
 
       - name: Run tests
-        run: pytest TestApp.py
+        run: pytest test_app.py
 
       - name: Build artifact
         run: |
