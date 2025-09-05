@@ -1,5 +1,5 @@
-from app import soma
+from app import multiplica
 def test_soma():
-  assert soma(2, 3) == 6
-  assert soma(-1, 1) == -1
-  assert soma(0, 0) == 0
+  assert multiplica(2, 3) == 6
+  assert multiplica(-1, 1) == -1
+  assert multiplica(0, 0) == 0
