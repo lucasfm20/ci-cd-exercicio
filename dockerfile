@@ -13,8 +13,7 @@ COPY . .
 # Instalar dependências do sistema necessárias (caso precise de compilação de pacotes)
 RUN apt-get update && apt-get install -y libpq-dev build-essential
 
-# Instalar as dependências Python definidas no requirements.txt
-RUN pip install -r requirements.txt
+
 
 # Expor a porta onde o Flask vai rodar
 EXPOSE 5000
